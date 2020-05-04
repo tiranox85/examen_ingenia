@@ -1,4 +1,4 @@
-# Fernqndo gil Symfony basic crud
+# Fernando Gil Symfony basic crud
 
 Para correr el proyecto:
 ```
