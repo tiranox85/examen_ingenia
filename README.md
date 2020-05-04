@@ -12,7 +12,7 @@ docker-compose up -d
 docker-compose run php-fpm composer install
 ```
 
-### Database (MariaDB)
+### Database
 ```
 docker-compose run php-fpm bin/console doctrine:migrations:migrate  
 ```
