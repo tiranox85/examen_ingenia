@@ -17,7 +17,10 @@ docker-compose run php-fpm composer install
 docker-compose run php-fpm bin/console doctrine:migrations:migrate  
 ```
 
-La configuración de la DB se encuentra en el archivo .env
+La configuración de la DB se encuentra en el archivo 
+```
+docker/.env
+```
 
 Este repositorio usa Validation de symfony https://symfony.com/doc/current/validation.html
 ```    
